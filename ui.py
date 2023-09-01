@@ -37,13 +37,13 @@ def build_question(count, json_question):
 
 # Upload PDF file
 # uploaded_file = st.file_uploader(":female-student:", type=["pdf"])
-txt = st.text_area('Type the text from which you want to generate the quiz')
+txt = st.text_area('Type the text you want to generate it as a quiz:')
 
 if st.button("Generate Quiz", key=f"button_generer"):
     if txt is not None:
         with st.spinner("Quiz generation..."):
             st.session_state['questions'] = asyncio.run(txt_to_quizz(txt))
-            st.write("Quiz generated successfully!")
+            st.write("\n\nQuiz generated successfully!")
 
 if ('questions' in st.session_state):
     # Display question
