@@ -25,6 +25,7 @@ def build_question(count, json_question):
             if selected_answer == rep:
                 color = ":green"
                 st.write(f":green[Good answer: {rep}]")
+                st.ballons()
                 
             else:
                 color = ":red"
@@ -85,4 +86,4 @@ if ('questions' in st.session_state):
 
             generate_pdf_quiz(f"data/quiz-{file_name}.json", json_questions)
             
-            st.write("PDF Quiz successfully generated!")        
+            st.write("PDF Quiz successfully generated!")      
