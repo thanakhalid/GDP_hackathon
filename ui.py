@@ -1,8 +1,6 @@
 import streamlit as st
 from ui_utils import check_password
-#from pdf_to_quizz import pdf_to_quizz
 from text_to_quizz import txt_to_quizz
-#from generate_pdf import generate_pdf_quiz
 import json
 
 import asyncio
