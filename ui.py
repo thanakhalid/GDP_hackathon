@@ -7,7 +7,7 @@ import json
 
 import asyncio
 
-st.title("PDF to Quiz (:-)(-: )")
+st.title("PDF to Quiz (:-)(-: ) for grad")
 
 def build_question(count, json_question):
 
