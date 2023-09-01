@@ -23,7 +23,7 @@ def build_question(count, json_question):
             if selected_answer == rep:
                 color = ":green"
                 st.write(f":green[Good answer: {rep}]")
-                st.ballons()
+                st.balloons()
                 
             else:
                 color = ":red"
