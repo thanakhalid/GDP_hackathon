@@ -9,7 +9,7 @@ COPY ./requirements.txt /requirements.txt
 # switch working directory
 WORKDIR /
 
-ENV OPENAI_API_KEY=""
+ENV OPENAI_API_KEY="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"
 
 EXPOSE 8501
 
