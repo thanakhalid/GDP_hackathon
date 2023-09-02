@@ -1,1 +1,3 @@
-OPENAI_API_KEY='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'
+import os
+import streamlit as st
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
