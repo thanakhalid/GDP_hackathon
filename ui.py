@@ -6,9 +6,7 @@ import json
 import asyncio
 
 st.title("Generate questions from text!")
-from config import OPENAI_API_KEY
 
-print(OPENAI_API_KEY)
 
 def build_question(count, json_question):
 
